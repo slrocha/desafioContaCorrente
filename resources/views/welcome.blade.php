@@ -17,7 +17,9 @@
             <center><h1> Banco Capgemini</h1></center>   
             </header>
             <div class="container">
-                <router-view>  </router-view>             
+                <div class="justify-content-center">
+                    <router-view></router-view>   
+                </div>          
             </div>
         </div>
     </body>
