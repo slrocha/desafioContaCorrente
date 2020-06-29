@@ -12,6 +12,12 @@ class ContaCorrenteController extends Controller
     {
         return response()->json(ContaCorrente::all());
     }
+
+    public function create()
+    {
+        return view('create');
+    }
+ 
  
     public function store(Request $request)
     {
