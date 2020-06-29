@@ -25,7 +25,6 @@
 	            <td>@{{conta.titular}}</td>
 	            <td>@{{conta.cpf}}</td>
 	            <td>
-		            <button type="button" class="btn btn-warning btn-sm" v-on:click="">Editar</button>
 		            <button type="button" class="btn btn-success btn-sm" v-on:click.prevent="editSaldo(conta);">Depositar</button>
 		            <button type="button" class="btn btn-success btn-sm" v-on:click="">Transferir</button>
 		            <button type="button" class="btn btn-danger btn-sm" v-on:click.prevent="deleteConta(conta);">Deletar</button>
